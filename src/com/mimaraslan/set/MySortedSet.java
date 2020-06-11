@@ -2,7 +2,6 @@ package com.mimaraslan.set;
 
 import java.util.*;
 
-
 public class MySortedSet {
     public static void main(String args[]) {
 

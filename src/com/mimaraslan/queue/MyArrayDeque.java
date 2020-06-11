@@ -2,7 +2,6 @@ package com.mimaraslan.queue;
 
 import java.util.*;
 
-
 public class MyArrayDeque {
     public static void main(String args[]) {
 
