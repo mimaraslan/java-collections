@@ -1,11 +1,11 @@
-package com.mimaraslan.set;
+package com.mimaraslan.set.hashset;
 
 import java.util.*;
 
-public class MyTreeSet {
+public class MyHashSet {
     public static void main(String args[]) {
 
-        TreeSet<String> mySet = new TreeSet();
+        HashSet<String> mySet = new HashSet<String>();
         mySet.add("B");
         mySet.add("A");
         mySet.add("Z");

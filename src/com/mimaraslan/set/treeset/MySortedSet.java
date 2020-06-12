@@ -1,4 +1,4 @@
-package com.mimaraslan.set;
+package com.mimaraslan.set.treeset;
 
 import java.util.*;
 

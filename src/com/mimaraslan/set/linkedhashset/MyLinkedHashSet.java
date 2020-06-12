@@ -1,11 +1,11 @@
-package com.mimaraslan.set;
+package com.mimaraslan.set.linkedhashset;
 
 import java.util.*;
 
-public class MyHashSet {
+public class MyLinkedHashSet {
     public static void main(String args[]) {
 
-        HashSet<String> mySet = new HashSet<String>();
+        LinkedHashSet<String> mySet=new LinkedHashSet<String>();
         mySet.add("B");
         mySet.add("A");
         mySet.add("Z");
