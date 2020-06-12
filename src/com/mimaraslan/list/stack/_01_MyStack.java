@@ -1,8 +1,8 @@
-package com.mimaraslan.list;
+package com.mimaraslan.list.stack;
 
 import java.util.*;
 
-public class _04_MyStack {
+public class _01_MyStack {
     public static void main(String args[]) {
 
         Stack<String> myList = new Stack<String>();

@@ -1,11 +1,11 @@
-package com.mimaraslan.list;
+package com.mimaraslan.list.linkedlist;
 
 import java.util.*;
 
-public class _03_MyVector {
+public class _01_MyLinkedList {
     public static void main(String args[]) {
 
-        Vector<String> myList=new Vector<String>();
+        LinkedList<String> myList = new LinkedList<String>();
         myList.add("B");
         myList.add("A");
         myList.add("Z");

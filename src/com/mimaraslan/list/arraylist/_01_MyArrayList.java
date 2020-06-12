@@ -24,7 +24,6 @@ class _01_MyArrayList {
         for(String item:myList)
             System.out.println(item);
 
-
         System.out.println("\nmyList.get(1) Index:1 \nIt will return the 2nd element, because index starts from 0");
         System.out.println("Returning element: "+myList.get(1));
 
