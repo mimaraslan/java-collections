@@ -1,27 +1,35 @@
-package com.mimaraslan.list.linkedlist;
+package com.mimaraslan.list.linkedlist._02_model;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 
-public class _01_MyLinkedList {
-	public static void main(String args[]) {
+public class MyLinkedList {
+	public static void main(String[] args) {
 
-		List<String> myList1 = new LinkedList<>();
-		ArrayList<String> myList2 = new ArrayList<>();
+		List<Book> myList1 = new LinkedList<Book>();
+
+		Book b1 = new Book(101, "C", "Yashwant", "BPB", 8);
+		Book b2 = new Book(102, "Data", "Forouzan", " Hill", 4);
+		Book b3 = new Book(103, "Operating", "Galvin", "Wiley", 6);
+
+		myList1.add(b1);
+		myList1.add(b2);
+		myList1.add(b3);
+
+		for (Book b : myList1) {
+			System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);
+		}
 		
-		myList1.add(0,"B");
-		myList1.add("A"); // myList1.set(1,"LOLO");  
-		myList1.add("Z");
-		myList1.add("C");
-		myList1.add("C");
-		myList1.add(null);
-
-	    for (int i = 0; i < myList1.size(); i++) {
+		System.out.println("-------------------");
+		
+		for (int i = 0; i < myList1.size(); i++) {
 			System.out.println(myList1.get(i));
 		}
 		
 		System.out.println("-------------------");
 
-		for (String str : myList1) {
+		for (Book str : myList1) {
 			System.out.println(str);
 		}
 		
@@ -38,8 +46,7 @@ public class _01_MyLinkedList {
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-
-
+		
 	}
 }
 
@@ -55,3 +62,4 @@ In Java LinkedList class, manipulation is fast because no shifting needs to occu
 
 Java LinkedList class can be used as a list, stack or queue.
 */
+		
