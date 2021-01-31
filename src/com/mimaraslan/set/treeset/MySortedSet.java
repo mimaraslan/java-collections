@@ -3,20 +3,19 @@ package com.mimaraslan.set.treeset;
 import java.util.*;
 
 public class MySortedSet {
-    public static void main(String args[]) {
+	public static void main(String args[]) {
 
-        SortedSet<String> mySet = new TreeSet();
-        mySet.add("B");
-        mySet.add("A");
-        mySet.add("Z");
-        mySet.add("Z");
-        mySet.add("A");
-        mySet.add("A");
-        mySet.add("C");
+		SortedSet<String> mySet1 = new TreeSet();
+		mySet1.add("B");
+		mySet1.add("A");   
+		mySet1.add("Z");
+		mySet1.add("C");
+		mySet1.add("C");
+		//mySet1.add(null);
 
-        Iterator<String> itr = mySet.iterator();
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
-        }
-    }
+		Iterator<String> itr = mySet1.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
 }
