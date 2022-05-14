@@ -1,11 +1,22 @@
 package com.mimaraslan.list.arraylist;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
-import java.util.Vector;
+
+/*
+
+Java ArrayList class can contain duplicate elements.
+Java ArrayList class maintains insertion order.
+Java ArrayList class is non synchronized.
+Java ArrayList allows random access because the array works on an index basis.
+
+In ArrayList, manipulation is a little bit slower than the LinkedList in Java
+because a lot of shifting needs to occur if any element is removed from the array list.
+
+We can not create an array list of the primitive types,
+such as int, float, char, etc. It is required to use
+the required wrapper class in such cases. For example:
+
+*/
+
+import java.util.*;
 
 public class _01_ArrayList {
 	public static void main(String[] args) {
@@ -63,18 +74,3 @@ public class _01_ArrayList {
 
 
 
-/*
-
-Java ArrayList class can contain duplicate elements.
-Java ArrayList class maintains insertion order.
-Java ArrayList class is non synchronized.
-Java ArrayList allows random access because the array works on an index basis.
-
-In ArrayList, manipulation is a little bit slower than the LinkedList in Java 
-because a lot of shifting needs to occur if any element is removed from the array list.
-
-We can not create an array list of the primitive types, 
-such as int, float, char, etc. It is required to use 
-the required wrapper class in such cases. For example:		
-
-*/

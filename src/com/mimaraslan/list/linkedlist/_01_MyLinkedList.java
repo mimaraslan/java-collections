@@ -1,4 +1,16 @@
 package com.mimaraslan.list.linkedlist;
+/* FASTER
+
+Java LinkedList class can contain duplicate elements.
+
+Java LinkedList class maintains insertion order.
+
+Java LinkedList class is non synchronized.
+
+In Java LinkedList class, manipulation is fast because no shifting needs to occur.
+
+Java LinkedList class can be used as a list, stack or queue.
+*/
 
 import java.util.*;
 
@@ -43,15 +55,3 @@ public class _01_MyLinkedList {
 	}
 }
 
-/* FASTER
-
-Java LinkedList class can contain duplicate elements.
-
-Java LinkedList class maintains insertion order.
-
-Java LinkedList class is non synchronized.
-
-In Java LinkedList class, manipulation is fast because no shifting needs to occur.
-
-Java LinkedList class can be used as a list, stack or queue.
-*/
